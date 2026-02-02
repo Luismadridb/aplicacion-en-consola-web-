@@ -66,7 +66,7 @@ proyecto_modulo_3/
 - Navegador web moderno (Chrome, Firefox, Safari, Edge)
 - JavaScript habilitado
 
-## 🎮 Cómo Usar
+## Cómo Usar
 
 1. **Abre el archivo `index.html`** en tu navegador
 2. **Presiona F12** para abrir las herramientas de desarrollador
@@ -74,7 +74,7 @@ proyecto_modulo_3/
 4. **Haz clic en el botón "Iniciar"** en la página
 5. **Sigue las instrucciones** en los prompts
 
-## 💻 Ejemplos de Uso
+## Ejemplos de Uso
 
 ### Calculadora
 ```
