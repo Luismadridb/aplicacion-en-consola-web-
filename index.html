@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto JavaScript - Módulo 3</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Aplicación de Consola</h1>
+        <p class="subtitle">Módulo 3: Fundamentos de Programación en JavaScript</p>
+
+        <div class="info-box">
+            <h2> Características</h2>
+            <ul>
+                <li> Calculadora interactiva</li>
+                <li> Análisis de números</li>
+                <li> Días de la semana</li>
+                <li> Clasificador de edad</li>
+                <li> Gestión de arreglos</li>
+                <li> Registro de estudiantes</li>
+            </ul>
+        </div>
+
+        <div class="instructions">
+            <h3> Instrucciones de Uso</h3>
+            <ol>
+                <li>Presiona <strong>F12</strong> en tu teclado</li>
+                <li>Abre la pestaña <strong>"Console"</strong></li>
+                <li>Haz clic en el botón <strong>"Iniciar Aplicación"</strong></li>
+                <li>Sigue las instrucciones en los prompts</li> 
+            </ol>
+        </div>
+
+        <button class="button" id="btnIniciar">
+             Iniciar 
+        </button>
+    </div>
+    <script>
+        // Esperar a que todo se cargue
+        window.addEventListener('DOMContentLoaded', function() {
+            const btnIniciar = document.getElementById('btnIniciar');
+            
+            // Si existe la función iniciarAplicacion, conectar el botón
+            if (typeof iniciarAplicacion === 'function') {
+                btnIniciar.addEventListener('click', function() {
+                    iniciarAplicacion();
+                });
+            }
+        });
+    </script>
+    
+    <script src="../assets/js/app.js"></script>
+    
+</body>
+</html>
